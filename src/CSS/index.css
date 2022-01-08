@@ -117,7 +117,7 @@ body,
 .bg-dark {
   background-color: hsl(var(--clr-dark));
 }
-.bg-light {
+.bg-accent {
   background-color: hsl(var(--clr-light));
 }
 .bg-white {
@@ -127,13 +127,9 @@ body,
 .text-dark {
   color: hsl(var(--clr-dark));
 }
-.text-light {
+.text-accent {
   color: hsl(var(--clr-light));
 }
 .text-white {
   color: hsl(var(--clr-white));
-}
-
-.example-component {
-  background-color: hsl(var(--clr-light) / 0.5);
 }
