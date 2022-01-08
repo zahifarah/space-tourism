@@ -5,54 +5,54 @@ import "./CSS/index.css"
 
 const Website = () => {
   return (
-    <div class="container bg-dark text-white">
-      <h1>Design system</h1>
+    <div className="container">
+      <h1 className="uppercase">Design system</h1>
 
       <section id="colors">
-        <h2>
+        <h2 className="uppercase">
           <span>01</span> colors
         </h2>
 
-        <div class="flex">
+        <div className="flex">
           <div style={{ flexGrow: "1" }}>
             <div
-              class="bg-dark text-white"
+              className="bg-dark text-white"
               style={{ padding: "3rem 1rem 1rem", border: "1px solid white" }}>
               #0B0D17
             </div>
             <p>
-              <span class="text-accent">RGB</span> 11, 13, 23
+              <span className="text-accent">RGB</span> 11, 13, 23
             </p>
             <p>
-              <span class="text-accent">HSL</span> 230°, 35%, 7%
+              <span className="text-accent">HSL</span> 230°, 35%, 7%
             </p>
           </div>
 
           <div style={{ flexGrow: "1" }}>
             <div
-              class="bg-accent text-dark"
+              className="bg-accent text-dark"
               style={{ padding: "3rem 1rem 1rem", border: "1px solid white" }}>
               #D0D6F9
             </div>
             <p>
-              <span class="text-accent">RGB</span> 208, 214, 249
+              <span className="text-accent">RGB</span> 208, 214, 249
             </p>
             <p>
-              <span class="text-accent">HSL</span> 231°, 77%, 90%
+              <span className="text-accent">HSL</span> 231°, 77%, 90%
             </p>
           </div>
 
           <div style={{ flexGrow: "1" }}>
             <div
-              class="bg-white text-dark"
+              className="bg-white text-dark"
               style={{ padding: "3rem 1rem 1rem", border: "1px solid white" }}>
               #FFFFFF
             </div>
             <p>
-              <span class="text-accent">RGB</span> 255, 255, 255
+              <span className="text-accent">RGB</span> 255, 255, 255
             </p>
             <p>
-              <span class="text-accent">HSL</span> 0°, 0%, 100%
+              <span className="text-accent">HSL</span> 0°, 0%, 100%
             </p>
           </div>
         </div>
